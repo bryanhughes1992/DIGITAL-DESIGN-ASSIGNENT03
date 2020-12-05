@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
+/* DESKTOP STYLES */
+@media only screen and (width: 1024px){
+    html, body {
+        max-height: 1080px;
+        min-height: 768px;
+        min-width: 1024px;
+        max-width: 1920px;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .master-container {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav {
+        background-color: #000;
+        color: #FFF;
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .page-title {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin: 0;
+        padding: 1.2em 0;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    li[class*="nav-li"]{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        margin: 0.2em 1.5em 0.5em 0;
+        text-align: center;
+    }
+
+
+
+    a, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        width: 100%;
+        height: 70vh;
+        background-color: #333;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .desktop-form-container {
+        width: 80vw;
+        background-color: #eee;
+        height: 70vh;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .desktop-paragraph {
+        column-count: 2;
+        column-width: 4em;
+        font-size: 1.4em;
+    }
+
+    .desktop-columns {
+        margin: 0;
+        border: solid #fff 0.5em;
+        background-color: #fff;
+        width: 65%;
+        height: 80%;
+        margin: auto;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .field {
+        margin: 5px;
+    }
+
+    legend {
+        font-size: 1.4em;
+    }
+
+    label {
+        font-size: 1.4em;
+    }
+
+    input {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2em;
+    }
+
+
+
+    .img-slides {
+        position: relative;
+        margin: auto;
+    }
+
+    .img-one {
+        display: none;
+    }
+
+    .img-two {
+        display: none;
+    }
+
+    footer {
+        color: #fff;
+        background-color: #000;
+        height: 10vh;
+        width: 100%;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+    .footer-text {
+        margin: 2em 2em;
+        letter-spacing: 0.2em;
+    }
+}
