@@ -56,8 +56,24 @@
         width: 100%;
         height: 70vh;
         background-color: #333;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+
+    .mySlides {
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        margin-top: auto;
     }
 
     .img-slides {
@@ -66,13 +82,19 @@
     }
 
     .img-one {
-        height: 450px;
-        width: 250px;
-        margin: 2.6em 0.5em;
+        height: 400px;
+        width: 225px;
+        margin: auto;
     }
 
     .img-two {
         display: none;
+
+    }
+
+    .arrow-left, .arrow-right {
+        color: #fff;
+        margin: auto;
     }
 
     .desktop-form-container {
